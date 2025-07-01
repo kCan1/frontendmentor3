@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .card {
-  @apply bg-[#1F1F1F] min-w-[300px] min-h-[400px] flex-col flex items-center p-6 rounded-md shadow-lg sm:m-5;
+  @apply bg-[#1F1F1F] min-w-[350px] min-h-[450px] flex-col flex items-center p-6 rounded-md shadow-xl drop-shadow-xl sm:m-5;
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 button {
-  @apply bg-[#333333] rounded-sm w-full text-sm p-1.5 font-semibold hover:bg-[#C5F829] hover:text-black transition-colors duration-300 hover:cursor-pointer;
+  @apply bg-[#333333] rounded-md w-full text-sm p-2 font-semibold hover:bg-[#C5F829] hover:text-black transition-colors duration-300 hover:cursor-pointer;
 }
 
 h1 {

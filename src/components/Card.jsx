@@ -4,7 +4,7 @@ import Profile from "../assets/images/avatar-jessica.jpeg";
 const Card = () => {
   return (
     <div className="card">
-      <img src={Profile} alt="Profile" className="w-15 rounded-full" />
+      <img src={Profile} alt="Profile" className="w-20 rounded-full" />
       <h1>Jessica Randall</h1>
       <h2>London, United Kingdom</h2>
       <p className="mt-1">"Front-end developer and avid reader."</p>
